@@ -6,6 +6,7 @@ id = "faceprivacy"
 name = "FacePrivacy"
 description.en = "Face Blurring Application"
 description.fr = "Application de Floutage de Visages"
+description.de = "Anwendung zur Gesichtsverpixelung"
 
 version = "2025.08.25~ynh1"
 
