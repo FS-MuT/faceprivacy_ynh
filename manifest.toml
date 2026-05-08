@@ -16,7 +16,7 @@ maintainers = ["eric_G"]
 license = "MIT"
 website = "https://faceprivacy.forge.apps.education.fr/app/"
 demo = "https://faceprivacy.forge.apps.education.fr/app/"
-code = "https://forge.apps.education.fr/faceprivacy/app"
+code = "https://github.com/FS-MuT/faceprivacy-de"
 
 [integration]
 yunohost = ">= 12.0.9"
@@ -47,10 +47,11 @@ ram.runtime = "30M"
     [resources.sources]
 
     [resources.sources.main]
-    url = "https://forge.apps.education.fr/faceprivacy/app/-/archive/8942ba3f5bd9534196cfa7cc26e0d9a5d96dacc8/app-8942ba3f5bd9534196cfa7cc26e0d9a5d96dacc8.tar.bz2"
-    sha256 = "0c8d32382698a5d1fcf0d8fb8b1227dfa48f8e6843334c76f450fbb3474c95b2"
+    url = "https://github.com/FS-MuT/faceprivacy-de/archive/refs/heads/main.tar.gz"
+    sha256 = "589e06efb2ed1895e5bfe3a0827ae3d37a20fb4329ce45ca862902cdc9d0fec1"
 
-    autoupdate.strategy = "latest_gitlab_commit"
+    autoupdate.strategy = "latest_github_branch"
+    autoupdate.branch = "main"
 
     [resources.system_user]
 
